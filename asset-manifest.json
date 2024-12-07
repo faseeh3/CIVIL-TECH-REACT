@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/CIVIL-TECH-REACT/static/css/main.dc4d6ff2.css",
+    "main.js": "/CIVIL-TECH-REACT/static/js/main.0cd8bc9b.js",
+    "static/js/453.a983c651.chunk.js": "/CIVIL-TECH-REACT/static/js/453.a983c651.chunk.js",
+    "index.html": "/CIVIL-TECH-REACT/index.html",
+    "main.dc4d6ff2.css.map": "/CIVIL-TECH-REACT/static/css/main.dc4d6ff2.css.map",
+    "main.0cd8bc9b.js.map": "/CIVIL-TECH-REACT/static/js/main.0cd8bc9b.js.map",
+    "453.a983c651.chunk.js.map": "/CIVIL-TECH-REACT/static/js/453.a983c651.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc4d6ff2.css",
+    "static/js/main.0cd8bc9b.js"
+  ]
+}
