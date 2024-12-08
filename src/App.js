@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from "./Component/Navbar";
 import Textform from "./Component/Textform";
 import Alert from "./Component/Alert";
-import About from "./Component/About";
-import { Route, Routes } from "react-router-dom";
+// import About from "./Component/About";
+// import { Route, Routes } from "react-router-dom";
 
 function App() {
   const [alert, setAlert] = useState(null);
@@ -38,11 +38,12 @@ function App() {
       <Navbar title="CIVIL TECH" mode={mode} toggleMode={toggleMode} />
       <Alert alert={alert} />
       <div className="Container my-3">
-        <Routes>
+        {/* <Routes>
           <Route
-            path="/" element={<Textform showAlert={showAlert}heading="Enter text to analyze below"mode={mode} />}/>
-          <Route path="/about" element={<About />} />
-        </Routes>
+            path="/" element={}/> */}
+              <Textform showAlert={showAlert}heading="Enter text to analyze below"mode={mode} />
+          {/* <Route path="/about" element={<About />} />
+        </Routes> */}
       </div>
     </>
   );
