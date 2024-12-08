@@ -46,6 +46,7 @@ const [text, setText] = useState('');
     </div>
     <div className="container my-2" style={{color:props.mode==="dark"?"white":"#051a44"}}>
         <h2>Your Text Summary</h2>
+       
         <p>{text.split(" ").filter(word => word.trim() !== "").length} Words</p>
         <p>{text.length} Characters</p>
         <p>{0.008 * text.split(" ").length} Minutes Would Be taken To Read</p>
